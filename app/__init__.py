@@ -29,7 +29,8 @@ def app_mvc():
         version='1.0',
         title='Products API',
         description='A simple Products API',
-        doc='/swagger-ui'
+        doc='/swagger-ui',
+        
     )
     
     from .routes import product_ns
